@@ -1,0 +1,53 @@
+{
+  "id": "./",
+  "name": "SNS 保存ボード",
+  "short_name": "保存ボード",
+  "description": "X・Instagram・YouTubeの保存済みコンテンツを見返すボード",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "#fafaf8",
+  "background_color": "#fafaf8",
+  "categories": [
+    "productivity",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "pwa-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "pwa-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "pwa-icon-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "X のブックマーク",
+      "short_name": "X",
+      "url": "./?source=x"
+    },
+    {
+      "name": "Instagram の保存済み",
+      "short_name": "Instagram",
+      "url": "./?source=instagram"
+    },
+    {
+      "name": "YouTube の高評価動画",
+      "short_name": "YouTube",
+      "url": "./?source=youtube"
+    }
+  ]
+}
